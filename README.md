@@ -30,7 +30,7 @@ Placing the camera low down and close to where the person needs to sit, means th
 - Install OpenCV and MediaPipe. I've included a pdf file that sets out the installation steps that worked for me.
 - Install the Omxplayer-wrapper:
 $ sudo python3 -m pip install omxplayer-wrapper
-- Install the Android app on the ccellphone:
+- Install the Android app on the cellphone:
 https://www.youtube.com/watch?v=lXeiicHhtNs
 - Put the video and the Python script into the same folder. I've not included the video in this repo due to copyright. You can use a sample video to test that everything is working. Copyright free videos can be downloaded from pixabay.com. Change the name of the video file in the python code to match the video file you are using.
 - Connect the Raspberry Pi to the TV using the HDMI cable
