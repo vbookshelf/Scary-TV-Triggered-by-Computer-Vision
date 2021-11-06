@@ -6,9 +6,11 @@ This project uses a Raspberry Pi 3, OpenCV and the MediaPipe pose detection mode
 
 When the model detects that someone has sat down in front of the TV, the code triggers a portrait to come to life and scare the viewer. 
 
-The code keeps triggering as long as a person is detected. Therefore, to stop the video hold up one hand. If the model detects that your wrist is above your shoulder, the video will stop playing and the code will terminate.
+The code keeps triggering as long as a person's two shoulder landmarks are detected. To stop the video hold up one hand. If the model detects that your wrist is above your shoulder, the video will stop playing and the code will terminate.
 
 This setup uses a cellphone camera thats connected to the Raspberry Pi via Wifi. Because the camera is not plugged into the Raspberry Pi or into the TV, you have the flexibility to place it anywhere.
+
+Placing the camera low down and close to where the person needs to sit, means that the person will have to be sitting before his or her shoulders will appear on the camera - people walking around the room will not trigger the code.
 
 <br>
 
