@@ -39,5 +39,9 @@ https://www.youtube.com/watch?v=IWHBdU4OHOY
 - MediaPipe Pose<br>
 https://google.github.io/mediapipe/solutions/pose
 
+- vbookshelf Repo<br>
+Raspberry Pi Resources for Beginners<br>
+https://github.com/vbookshelf/Raspberry-Pi-Resources-for-Beginners
+
 
 <br>
