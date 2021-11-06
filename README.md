@@ -36,5 +36,8 @@ https://www.instructables.com/Raspberry-Pi-Based-Living-Portrait-Player-Intro/
 Halloween Raspberry Pi 3 B Project Possessed Portrait<br>
 https://www.youtube.com/watch?v=IWHBdU4OHOY
 
+- MediaPipe Pose<br>
+https://google.github.io/mediapipe/solutions/pose
+
 
 <br>
