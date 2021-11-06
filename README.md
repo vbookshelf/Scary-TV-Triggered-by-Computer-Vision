@@ -4,7 +4,7 @@ In progress...
 
 This project uses a Raspberry Pi 3, OpenCV and the MediaPipe pose detection model to trigger a scary portrait on a smart TV. 
 
-When the model detects that someone has sat down in front of the TV, the code triggers a portrait to come to life and scare the viewer. 
+When the model detects that someone has sat down in front of the TV, the code triggers a portrait to come to life and scare the person. 
 
 The code keeps triggering as long as a person's two shoulder landmarks are detected. To stop the video hold up one hand. If the model detects that your wrist is above your shoulder, the video will stop playing and the code will terminate.
 
