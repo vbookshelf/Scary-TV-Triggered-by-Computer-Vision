@@ -28,4 +28,13 @@ This project uses a Raspberry Pi 3, OpenCV and the MediaPipe pose detection mode
 
 ## Reference Resources
 
+- scaretots<br>
+Living Portrait Scare for Halloween Using a Raspberry Pi, PIR and Python<br>
+https://www.instructables.com/Raspberry-Pi-Based-Living-Portrait-Player-Intro/
+
+- Nick Marino<br>
+Halloween Raspberry Pi 3 B Project Possessed Portrait<br>
+https://www.youtube.com/watch?v=IWHBdU4OHOY
+
+
 <br>
