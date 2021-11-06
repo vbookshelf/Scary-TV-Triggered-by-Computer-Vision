@@ -11,6 +11,9 @@ This project uses a Raspberry Pi 3, OpenCV and the MediaPipe pose detection mode
 
 <br>
 <img src="https://github.com/vbookshelf/Scary-TV-Triggered-by-Computer-Vision/blob/main/images/scare-portrait5.gif" width="500"></img>
+<i>Videos were purchased from AtmosFx</i>
+<br>
+
 <br>
 
 ### Background
