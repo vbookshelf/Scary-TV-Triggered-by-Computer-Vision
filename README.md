@@ -8,6 +8,8 @@ When the model detects that someone has sat down in front of the TV, the code tr
 
 The code keeps triggering as long as a person is detected. Therefore, to stop the video hold up one hand. If the model detects that your wrist is above your shoulder, the video will stop playing and the code will terminate.
 
+This setup uses a cellphone camera thats connected to the Raspberry Pi via Wifi. Because the camera is not plugged into the Raspberry Pi or into the TV, you have the flexibility to place it anywhere.
+
 <br>
 
 #### When the model detects a person, this is what happens:
