@@ -19,4 +19,10 @@ This project uses a Raspberry Pi 3, OpenCV and the MediaPipe pose detection mode
 
 ### Lessons Learned
 
+- Set the GPU memory on the Raspberry Pi to 128. At 64 (the default setting) there is no sound.
+
+<br>
+
+## Reference Resources
+
 <br>
