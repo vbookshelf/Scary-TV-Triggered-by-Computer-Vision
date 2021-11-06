@@ -67,6 +67,10 @@ Camera interface with RPi - USB | Mobile Camera<br>
 This is helpful if you don't have a USB webcam or a Raspberry Pi camera.)<br>
 https://www.youtube.com/watch?v=lXeiicHhtNs
 
+- Murtaza's Workshop - Robotics and AI<br>
+Latest Pose Estimation Realtime (24 FPS) using CPU | Computer Vision | OpenCV Python 2021<br>
+https://www.youtube.com/watch?v=brwgBf6VB0I
+
 - vbookshelf Repo<br>
 Raspberry Pi Resources for Beginners<br>
 https://github.com/vbookshelf/Raspberry-Pi-Resources-for-Beginners
