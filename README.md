@@ -38,6 +38,9 @@ The video also has sound.</i>
 
 ### How to run this project
 
+- Connect the Raspberry Pi to the TV using an HDMI cable.<br>
+You should see the Raspberry Pi desktop appear on the TV screen.
+
 - Install OpenCV and MediaPipe. I've included a pdf file that sets out the installation steps that worked for me.
 - Install the Omxplayer-wrapper:<br>
 $ sudo python3 -m pip install omxplayer-wrapper
@@ -47,19 +50,18 @@ $ sudo pip3 install imutils
 
 - Install the Android app on the cellphone:<br>
 https://www.youtube.com/watch?v=lXeiicHhtNs
-- Start the server on the Android app. Change the IP address in the python code to match the IP address given in the app. Both the Raspberry Pi and the cellphone need to be connected to the same wifi network.
+- Start the server on the Android app. Change the IP address in scary-tv-code-rev1.py to match the IP address given in the app. Both the Raspberry Pi and the cellphone need to be connected to the same wifi network.
 
-- Make sure that the video and the Python script are in the same folder. Due to copyright, I've not included the scary video in this repo. There is a sample video of a dog. You can use it to test that everything is working.
-- Connect the Raspberry Pi to the TV using the HDMI cable
-- Upload the folder to the Raspberry Pi.
+- Due to copyright, I've not included the scary video in this repo. There is a sample video of a dog. You can use it to test that everything is working.
+- Upload the scare-tv-folder to the Raspberry Pi.
 
 
-- Using the command line, cd into the directory containing the python code and the video.
-- Run the python file:<br>
-$ python3 my_python_file.py
+- Using the command line, cd into scare-tv-folder. 
+- Run the python file. The paused video should appear on the TV screen.<br>
+$ python3 scary-tv-code-rev1.py
 
-- If you point the camera at a person - that should trigger the video.
-- If the person raises his or her hand, that will stop the code.
+- If you point the camera at a person - that should trigger the video to start playing.
+- If the person raises his or her hand, and holds it up for a few seconds, that will stop the code and close the video player.
 - Also, you can press Press Ctrl C to stop the code.
 
 <br>
