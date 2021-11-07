@@ -26,6 +26,15 @@ The video also has sound.</i>
 
 <br>
 
+### Hardware I used
+
+- Raspberry Pi 3 A+
+- Android cellphone
+- Samsung smart TV
+- TP-Link home wifi router
+
+<br>
+
 
 ### How to run this project
 
