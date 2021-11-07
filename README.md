@@ -1,16 +1,14 @@
 ## Scary TV Triggered by Computer Vision
 
-In progress...
-
 This project uses a Raspberry Pi 3, OpenCV and the MediaPipe pose detection model to trigger a scary portrait on a smart TV. 
 
 When the model detects that someone has sat down in front of the TV, the code triggers a portrait to come to life and scare the person. 
 
-The code keeps triggering as long as a person's two shoulder landmarks are detected. To stop the video hold up one hand. If the model detects that your wrist is above your shoulder, the video will stop playing and the code will terminate.
+The code keeps triggering as long as a person's two shoulder landmarks are detected. Hold up one hand to stop the video. If the model detects that your wrist is above your shoulder, the video will stop playing and the code will terminate.
 
 This setup uses a cellphone camera that's connected to the Raspberry Pi via wifi. Because the camera is not plugged into the Raspberry Pi or into the TV, you have the flexibility to place it anywhere.
 
-Placing the camera low down and close to where the person needs to sit, means that the person will have to be sitting before his or her shoulders will appear on camera - people walking around the room will not trigger the code.
+By placing the camera low down and pointing it at a very specific location you will ensure that the video will only trigger if a person is seated in one specfic place. People walking around the room will not trigger the video because the upper part of their bodies will not appear on the camera.
 
 <br>
 
@@ -39,7 +37,6 @@ The video also has sound.</i>
 ### How to run this project
 
 - Connect the Raspberry Pi to the TV using an HDMI cable.<br>
-You should see the Raspberry Pi desktop appear on the TV screen.
 
 - Install OpenCV and MediaPipe. I've included a pdf file that sets out the installation steps that worked for me.
 - Install the Omxplayer-wrapper:<br>
@@ -48,7 +45,7 @@ $ sudo python3 -m pip install omxplayer-wrapper
 - Install imutils<br>
 $ sudo pip3 install imutils
 
-- Install the Android app on the cellphone:<br>
+- Install the Android app on the cellphone. Please refer to this tutorial:<br>
 https://www.youtube.com/watch?v=lXeiicHhtNs
 - Start the server on the Android app. Change the IP address in scary-tv-code-rev1.py to match the IP address given in the app. Both the Raspberry Pi and the cellphone need to be connected to the same wifi network.
 
@@ -60,7 +57,7 @@ https://www.youtube.com/watch?v=lXeiicHhtNs
 - Run the python file. The paused video should appear on the TV screen.<br>
 $ python3 scary-tv-code-rev1.py
 
-- If you point the camera at a person - that should trigger the video to start playing.
+- Point the camera at a person - that should trigger the video to start playing.
 - If the person raises his or her hand, and holds it up for a few seconds, that will stop the code and close the video player.
 - Also, you can press Press Ctrl C to stop the code.
 
@@ -69,6 +66,8 @@ $ python3 scary-tv-code-rev1.py
 ### Lessons Learned
 
 - Set the GPU memory on the Raspberry Pi to 128. At 64 (the default setting) there is no sound.
+- The code can be a little unstable - the video may not pause at exactly the same place each time.
+- The wifi camera app works surprisingly well and having the flexibility to place the camera anywhere is very helpful.
 
 <br>
 
@@ -90,6 +89,9 @@ Camera interface with RPi - USB | Mobile Camera<br>
 (Explains how to connect a cellphone camera to a computer (or Raspberry Pi) via wifi.<br>
 This is helpful if you don't have a USB webcam or a Raspberry Pi camera.)<br>
 https://www.youtube.com/watch?v=lXeiicHhtNs
+
+- IP Webcam Android app<br>
+https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_ZA&gl=US
 
 - Murtaza's Workshop - Robotics and AI<br>
 Latest Pose Estimation Realtime (24 FPS) using CPU | Computer Vision | OpenCV Python 2021<br>
