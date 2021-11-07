@@ -15,12 +15,12 @@ Placing the camera low down and close to where the person needs to sit, means th
 <br>
 
 #### When the model detects a person, this is what happens:
-(The video also has sound.)
 
 <br>
 <img src="https://github.com/vbookshelf/Scary-TV-Triggered-by-Computer-Vision/blob/main/images/scare-portrait5.gif" width="500"></img>
 <i>Videos were purchased from AtmosFX.<br>
 Two videos were combined and edited to create this video.</i>
+The video also has sound.
 <br>
 
 <br>
