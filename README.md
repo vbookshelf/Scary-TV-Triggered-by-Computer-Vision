@@ -65,7 +65,8 @@ $ python3 scary-tv-code-rev1.py
 
 ### Lessons Learned
 
-- Set the GPU memory on the Raspberry Pi to 128. At 64 (the default setting) there is no sound.
+- Set the GPU memory on the Raspberry Pi to 128. At 64 (the default setting) there is no sound.<br>
+Preferences --> Raspberry Pi Configuration --> Performance --> GPU Memory
 - The code can be a little unstable - the video may not pause at exactly the same place each time.
 - The wifi camera app works surprisingly well and having the flexibility to place the camera anywhere is very helpful.
 
