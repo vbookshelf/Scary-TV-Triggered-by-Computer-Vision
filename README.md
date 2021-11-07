@@ -72,7 +72,7 @@ $ python3 my_python_file.py
 
 ## Reference Resources
 
-- scaretots<br>
+- scarethetots<br>
 Living Portrait Scare for Halloween Using a Raspberry Pi, PIR and Python<br>
 https://www.instructables.com/Raspberry-Pi-Based-Living-Portrait-Player-Intro/
 
