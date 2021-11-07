@@ -32,6 +32,8 @@ Two videos were combined and edited to create this video.</i>
 - Install the Omxplayer-wrapper:<br>
 $ sudo python3 -m pip install omxplayer-wrapper
 
+- Install imutils<br>
+$ sudo pip3 install imutils
 
 - Install the Android app on the cellphone:<br>
 https://www.youtube.com/watch?v=lXeiicHhtNs
