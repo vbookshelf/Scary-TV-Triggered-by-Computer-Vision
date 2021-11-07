@@ -32,15 +32,21 @@ Placing the camera low down and close to where the person needs to sit, means th
 $ sudo python3 -m pip install omxplayer-wrapper
 - Install the Android app on the cellphone:
 https://www.youtube.com/watch?v=lXeiicHhtNs
-- Put the video and the Python script into the same folder. I've not included the video in this repo due to copyright. You can use a sample video to test that everything is working. Copyright free videos can be downloaded from pixabay.com. Change the name of the video file in the python code to match the video file you are using.
+
+- Put the video and the Python script into the same folder. I've not included the scary video in this repo due to copyright. There is a sample video of a dog.
 - Connect the Raspberry Pi to the TV using the HDMI cable
 - Upload the folder to the Raspberry Pi.
 - Start the server on the Android app. Change the IP address in the python code to match the IP address given in the app. Both the Raspberry Pi and the cellphone need to be connected to the same wifi network.
+
 - Using the command line, cd into the directory containing the python code and the video.
 - Run the python file:
 $ python3 my_python_file.py
+
 - If you point the camera at a person that should trigger the video.
-- If you raise your hand, when the video is close to ending, that will stop the code.
+- If the person raises his or her hand, that will stop the code.
+- Also, you can press Press Ctrl C to stop the code.
+
+<br>
 
 ### Lessons Learned
 
